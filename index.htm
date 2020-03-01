@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Relevant Implications</title>
+    <link rel="stylesheet" href="css/reset.css">
+</head>
+
+<body>
+    <header>
+        <h1>Accessibility</h1>
+    </header>
+    <nav>
+        <a href="#" title="Home.">Home</a>
+        <a href="htm/semantic-html.htm" title="Semantic HTML.">Semantic HTML</a>
+        <a href="htm/colours.htm" title="Colours.">Colours</a>
+    </nav>
+    <main>
+        <section>
+            <h2>Why it matters</h2>
+            <p>Designing for inclusivity not only opens up our products and experiences to more people with a wider
+                range of abilities. It also reflects how people really are. All humans are growing, changing, and
+                adapting to the world around them every day. We want our designs to reflect that diversity.</p>
+            <p>Every decision we make can raise or lower barriers to participation in society. It’s our collective
+                responsibility to lower these barriers.</p>
+            <p><em>Sometimes exclusion is temporary.</em> Even a short-term injury or context affects the way people
+                interact with the world around them, if only for a short time. Think about looking into a bright light,
+                wearing a cast, or ordering dinner in a foreign country.</p>
+            <p><em>Sometimes exclusion is situational.</em> As people move through different environments, their
+                abilities can
+                also change dramatically. In a loud crowd, they can’t hear well. In a car, they’re visually impaired.
+                New parents spend much of their day doing tasks one-handed.</p>
+            <p><em>Solve for one, extend to many.</em> We aim to build experiences that unify people and embrace
+                individuality. Seeing disability differently and understanding exclusion helps us extend a solution for
+                one person into a solution for millions of people.</p>
+            <figure>
+                <img src="img/disability-varieties.png" alt="Varieties of exclusion.">
+                <figcaption>Exclusion comes in many forms.</figcaption>
+            </figure>
+        </section>
+        <section>
+            <h2>Semantic HTML</h2>
+            <p>Semantic elements are elements with a meaning. A semantic element clearly describes its meaning to both
+                the browser and the developer. Make your HTML code as semantic as possible, so that the code is easy to
+                understand for visitors and screen readers.</p>
+            <p>Examples of non-semantic elements: <code>&lt;div&gt;</code> and <code>&lt;span&gt;</code> - Tells nothing
+                about its content.</p>
+            <p>Examples of semantic elements: <code>&lt;header&gt;</code>, <code>&lt;nav&gt;</code>, and
+                <code>&lt;main&gt;</code> - Clearly defines its content.</p>
+            <p>Some things you can do to make your HTML more semantic:</p>
+            <ul>
+                <li>Headings: search engines use headings to index the structure and content of your web pages.</li>
+                <li>Alternative text: the <code>alt</code> attribute provides text for an image incase it's broken or
+                    the user can't view it (because of slow connection, an error in the <code>src</code> attribute, or
+                    if the user uses a screen reader.</li>
+                <li>Language: screen readers and search engines both use the <code>lang</code> attribute to know the
+                    language the page is in.</li>
+                <li>Link title: giving your links a <code>title</code> attribute helps by showing a tooltip when the
+                    user hovers over the link.</li>
+            </ul>
+        </section>
+        <section>
+            <h2>Colours</h2>
+            <p>Colour blindness affects 1 in 12 men (8%) and 1 in 200 women (0.5%). The most common type is red/green
+                colour blindness which makes it difficult for people to see the difference between red and green.</p>
+            <p>Sites like <a href="https://coolors.co" title="Coolors color palette generator.">Coolors.co</a> and <a
+                    href="https://color.adobe.com/" title="Adobe color palette generator.">Adobe Color</a> usually take
+                into account colour blindness when they generate a colour palette. In Coolors, you can choose specific
+                types of colour blindness to generate palettes for.</p>
+            <p>Some things you can do to make your HTML more semantic:</p>
+            <ul>
+                <li>Avoid red and green elements near one another.</li>
+                <li>Avoid red text on a green background, and vice versa.</li>
+                <li>Review your site through a tool like <cite>Chromatic Vision Simulator</cite> for <a
+                        href="https://apps.apple.com/us/app/chromatic-vision-simulator/id389310222"
+                        title="Chromatic Vision Simulator on the App Store.">iOS</a> and <a
+                        href="https://play.google.com/store/apps/details?id=asada0.android.cvsimulator&hl=en"
+                        title="Chromatic Vision Simulator on the Play Store.">Android</a>.</li>
+            </ul>
+        </section>
+    </main>
+    <footer>
+        <em>Accessibility</em> by Level 1 Digitech. This code is licensed
+        <a href="https://opensource.org/licenses/mit-license.php" title="The MIT license document.">MIT</a>.
+    </footer>
+</body>
+
+</html>
